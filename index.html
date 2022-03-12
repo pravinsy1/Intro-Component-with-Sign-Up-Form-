@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Intro component with sign up form</title>
+  </head>
+  <body>
+    <div class="sign-up">
+      <div class="container content">
+        <div class="text">
+          <h1>Learn to code by watching others</h1>
+          <p>
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+
+        <div class="form-container">
+          <div class="free-trial box-shadow">
+            <h2>Try it free 7 days <span>then $20/mo. thereafter</span></h2>
+          </div>
+          <!-- <form action="">
+            <div class="form box-shadow" id="form">
+              <input type="text" id="first_name" placeholder="First Name">
+              <label for="first_name">First Name cannot be empty <img src="images/icon-error.svg" alt="">  </label>
+              <input type="text" id="last_name" placeholder="Last Name">
+              <label for="last_name">Last Name cannot be empty <img src="images/icon-error.svg" alt=""> </label>
+              <input type="text" id="email" placeholder="Email Address">
+              <label for="email">Email cannot be empty <img src="images/icon-error.svg" alt=""> </label>
+              <input type="text" id="password" placeholder="Password">
+              <label for="password">Password cannot be empty <img src="images/icon-error.svg" alt=""> </label>
+              <button class="right-form-button" type="submit">CLAIM YOUR FREE TRIAL</button>  
+            </div>
+                    
+          </form> -->
+          <form action="">
+            <div class="form box-shadow" id="form">
+              <div class="input-wrapper">
+                <input
+                  class="textbox"
+                  id="first_name"
+                  type="text"
+                  placeholder="First Name"
+                />
+                <img
+                  class="error-icon hide"
+                  src="images/icon-error.svg"
+                  alt="error-icon"
+                />
+              </div>
+              <span class="error hide">First Name cannot be empty</span>
+              <div class="input-wrapper">
+                <input
+                  class="textbox"
+                  id="last_name"
+                  type="text"
+                  placeholder="Last Name"
+                />
+                <img
+                  class="error-icon hide"
+                  src="images/icon-error.svg"
+                  alt="error-icon"
+                />
+              </div>
+              <span class="error hide">Last Name cannot be empty</span>
+              <div class="input-wrapper">
+                <input
+                  class="textbox"
+                  id="email"
+                  type="email"
+                  placeholder="Email Address"
+                />
+                <img
+                  class="error-icon hide"
+                  src="images/icon-error.svg"
+                  alt="error-icon"
+                />
+              </div>
+              <span class="error hide">Email Address cannot be empty</span>
+              <div class="input-wrapper">
+                <input
+                  class="textbox"
+                  id="password"
+                  type="password"
+                  placeholder="Password"
+                />
+                <img
+                  class="error-icon hide"
+                  src="images/icon-error.svg"
+                  alt="error-icon"
+                />
+              </div>
+              <span class="error hide">Password cannot be empty</span>
+  
+              <div class="claim-trial">
+                <button class="btn uppercase box-shadow-green" type="submit">
+                  Claim your free trial
+                </button>
+              </div>
+              <p>
+                By clicking the button, you are agreeing to our
+                <a href=""><span class="terms">Terms and Services</span></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+          </form>
+          
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://pravinyadav.netlify.app/" target="_blank"
+          >Pravin Yadav</a
+        >.
+      </p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
